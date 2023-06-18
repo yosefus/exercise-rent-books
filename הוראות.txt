@@ -1,28 +1,41 @@
 הוראות ליצירת האתר והשרת:
+האתר הוא אתר להשכרת / מכירת ספרים.
 
 שרת:
 
 - בדקו לפני תחילת העבודה שהכל עובד בעזרת npm run dev וקריאת get לlocalhost/8000/test 
-1. יצירת הmodel של post עם :
-- title, description, isActive, createdAt, updatedAt, creatorAddress(email), likes
-2. יצירת הcontroller של post עם:
+
+1. יצירת הmodel של books עם :
+
+- title, isActive, createdAt, updatedAt, publishetAt , rentTo (list of rent and return), author , price, genre, inStock
+
+2. יצירת הcontroller של book עם:
  - כל הcrud 
+
 3. יצירת פונקציות בקובץ service לכל הcrud - עם ולידאציות למניעת כפילויות וכו... 
+
 4. יצירת ראוטים לכל אחד מהפונקציות
+
 5. יצירת פונקציית חיבור לmongo והרצה של הפונקציה בindex.js
+
 6. בדיקה בעזרת postman
 
 קליינט:
 
 1. הגדרת routes ויצירת דפים לשלד:
-home - כל הפוסטים
-- /edit-post/:id  עדכון פוסט לפי id
-- /create-post יצירת פוסט חדש
-2. יצירת layout עם navbar שמוביל לhome וcreate post 
-3. משיכת הפוסטים בhome והצגתם שעל כל אחד יש אייקון של עיפרון לעריכה שבלחיצה עליו מפנה לדף עריכה
-4. יצירת קומפוננט של form של יצירה/עריכה של פוסט )חשבו איך אתם עושים את זה דינמי לשני הדפים - דף יצירה ודף עריכה)
-5. יצירת חדשים
-6. עריכת קודמים
+home - כל הספרים
+- /edit-book/:id  עדכון  ספר לפי id
+- /create-book יצירת ספר חדש
+
+2. יצירת layout עם navbar שמוביל לhome וcreate book
+
+3. משיכת הספרים בhome והצגתם שעל כל אחד יש אייקון של עיפרון לעריכה שבלחיצה עליו מפנה לדף עריכה
+
+4. יצירת קומפוננט של form של יצירה/עריכה של ספר (חשבו איך אתם עושים את זה דינמי לשני הדפים - דף יצירה ודף עריכה)
+
+5. יצירת חדש
+
+6. עריכת קודם
 
 *בונוס - יצירת ניווט נפתח לפלאפון
 
