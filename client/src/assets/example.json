@@ -1,0 +1,122 @@
+[
+   {
+      "title": "Book 1",
+      "isActive": true,
+      "createdAt": "2023-05-29T12:00:00Z",
+      "updatedAt": "2023-05-29T14:30:00Z",
+      "publishedAt": "2023-01-01T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 1",
+      "price": 19.99,
+      "genre": "Fiction",
+      "inStock": 10
+   },
+   {
+      "title": "Book 2",
+      "isActive": true,
+      "createdAt": "2023-05-28T09:15:00Z",
+      "updatedAt": "2023-05-29T10:45:00Z",
+      "publishedAt": "2022-07-15T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 2",
+      "price": 14.99,
+      "genre": "Mystery",
+      "inStock": 5
+   },
+   {
+      "title": "Book 3",
+      "isActive": true,
+      "createdAt": "2023-05-27T16:30:00Z",
+      "updatedAt": "2023-05-29T09:00:00Z",
+      "publishedAt": "2021-11-30T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 3",
+      "price": 24.99,
+      "genre": "Sci-Fi",
+      "inStock": 8
+   },
+   {
+      "title": "Book 4",
+      "isActive": false,
+      "createdAt": "2023-05-26T14:45:00Z",
+      "updatedAt": "2023-05-28T17:20:00Z",
+      "publishedAt": "2020-05-10T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 4",
+      "price": 9.99,
+      "genre": "Thriller",
+      "inStock": 2
+   },
+   {
+      "title": "Book 5",
+      "isActive": true,
+      "createdAt": "2023-05-25T11:10:00Z",
+      "updatedAt": "2023-05-27T13:45:00Z",
+      "publishedAt": "2019-02-20T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 5",
+      "price": 12.99,
+      "genre": "Fantasy",
+      "inStock": 12
+   },
+   {
+      "title": "Book 6",
+      "isActive": true,
+      "createdAt": "2023-05-24T18:20:00Z",
+      "updatedAt": "2023-05-26T11:30:00Z",
+      "publishedAt": "2023-03-15T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 6",
+      "price": 17.99,
+      "genre": "Romance",
+      "inStock": 6
+   },
+   {
+      "title": "Book 7",
+      "isActive": true,
+      "createdAt": "2023-05-23T13:50:00Z",
+      "updatedAt": "2023-05-25T15:25:00Z",
+      "publishedAt": "2022-09-10T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 7",
+      "price": 21.99,
+      "genre": "Historical Fiction",
+      "inStock": 3
+   },
+   {
+      "title": "Book 8",
+      "isActive": true,
+      "createdAt": "2023-05-22T10:05:00Z",
+      "updatedAt": "2023-05-24T12:40:00Z",
+      "publishedAt": "2023-02-28T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 8",
+      "price": 16.99,
+      "genre": "Drama",
+      "inStock": 9
+   },
+   {
+      "title": "Book 9",
+      "isActive": true,
+      "createdAt": "2023-05-21T17:15:00Z",
+      "updatedAt": "2023-05-23T19:50:00Z",
+      "publishedAt": "2022-05-05T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 9",
+      "price": 11.99,
+      "genre": "Biography",
+      "inStock": 7
+   },
+   {
+      "title": "Book 10",
+      "isActive": true,
+      "createdAt": "2023-05-20T14:30:00Z",
+      "updatedAt": "2023-05-22T16:05:00Z",
+      "publishedAt": "2023-04-10T00:00:00Z",
+      "rentTo": [],
+      "author": "Author 10",
+      "price": 18.99,
+      "genre": "Self-Help",
+      "inStock": 4
+   }
+]
